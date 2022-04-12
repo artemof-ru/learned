@@ -3,7 +3,7 @@ const fs = require('fs')
 const data = `
     Hello from NodeJS
     I am random text!
-`
+` 
 
 fs.writeFileSync('nodejs.txt', data)
 

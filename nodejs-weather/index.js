@@ -5,7 +5,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const weatherRequest = require('./requests/weather.request')
 
-const app = express()
+const app = express() 
 
 app.set('view engine', 'ejs') //по умолчанию теперь файлы ejs
 app.use(express.static('public')) //статические файлы(css, ...)

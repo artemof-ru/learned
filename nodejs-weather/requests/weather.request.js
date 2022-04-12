@@ -8,7 +8,7 @@ const rp = require('request-promise')
 //экспорт объекта
 // module.exports = { 
 //     request: function() {}
-// }
+// } 
 
 // экспортируем ассинхронную функцию
 module.exports = async function(city = '') {
