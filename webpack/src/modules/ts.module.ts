@@ -6,4 +6,4 @@ interface WFM {
 
 const wfm: WFM = { field }
 
-console.log('[Typescript]: ', wfm)
+console.log('[Typescript]: ', wfm) 

@@ -8,7 +8,7 @@ import './css/index.css'
 import './less/index.less'
 import './scss/index.scss'
 
-console.log(config)
+console.log(config) 
 
 const service = new AppService('Hello world!')
 service.log() 

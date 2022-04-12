@@ -6,5 +6,5 @@ export default class AppService {
     // метод log
     log() {
         console.log('[App service]:', this.text)
-    }
+    } 
 }

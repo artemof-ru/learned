@@ -5,7 +5,7 @@ export default class App extends React.Component {
     componentDidMount() {
         $('<h1 />')
             .text('Hello World from JQuery')
-            .css({
+            .css({ 
                 textAlign: 'center',
                 color: 'blue'
             })
